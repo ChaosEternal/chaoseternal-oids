@@ -13,6 +13,9 @@ The enterprise number i have is 9609 , with IANA prefix , the oid base of chaose
 For the next level, 
  * SNMP: 0
  * LDAP: 1
+ ** my ldap-based simple network management tools: 100
+ *** objectClasses: 3
+ *** attributeTypes: 2
 
 =History=
 
