@@ -17,6 +17,10 @@ For the next level,
    * objectClasses: 3
    * attributeTypes: 2
 
+Another Enterprise Number is 33323
+
+1.3.5.1.4.1.33323
+
 =History=
 
 Before, I store these information in dns system using TXT type record, 
