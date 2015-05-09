@@ -1,0 +1,16 @@
+# Introduction #
+
+My path to coreboot
+
+
+# Details #
+
+GRUB2 payload building:
+http://grub.enbug.org/CoreBoot
+```
+MODULES="normal ls cat help ext2 iso9660 lvm fat pc gpt ata serial memdisk multiboot linux minicmd configfile search tar"
+ ./grub-mkelfimage -d . $MODULES -o payload.elf --prefix='(ata0)/boot/grub'
+```
+
+coreboot building:
+http://www.coreboot.org/QEMU_Build_Tutorial
